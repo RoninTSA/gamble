@@ -1,0 +1,60 @@
+body {
+  background-color: #265073;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  color: #F1FADA;
+  margin: 20px;
+  text-shadow: 5px 0 #232931;
+}
+
+.dice {
+  display: inline-block;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  color: #F1FADA;
+  margin: 20px;
+}
+
+/* .scoreBoard {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  color: #F1FADA;
+} */
+
+img {
+  width: 80%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+  background-color: #F1FADA;
+  border-radius: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
